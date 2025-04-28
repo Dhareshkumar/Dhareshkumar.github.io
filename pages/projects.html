@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | N S Dharesh Kumar</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* Projects page specific styles */
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    
+    .project-card {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    
+    .project-card .card-body {
+      flex: 1;
+    }
+    
+    .project-technologies {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1.5rem;
+    }
+    
+    .tech-tag {
+      padding: 0.4rem 0.8rem;
+      border-radius: 30px;
+      font-size: 0.8rem;
+      background-color: rgba(76, 201, 240, 0.1);
+      color: var(--cyan-accent);
+      backdrop-filter: blur(5px);
+      border: 1px solid rgba(76, 201, 240, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper projects-bg">
+    <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">N S Dharesh Kumar</div>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Projects</h2>
+          </div>
+          
+          <div class="projects-container">
+            <div class="card project-card">
+              <div class="card-body">
+                <h3>Food Ordering Chatbot</h3>
+                <p>This project is for food ordering and tracking food, developed using GCP's google dialogflow essentials.</p>
+                <div class="project-technologies">
+                  <span class="tech-tag">GCP</span>
+                  <span class="tech-tag">Dialogflow</span>
+                  <span class="tech-tag">AI</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card project-card">
+              <div class="card-body">
+                <h3>Store Analysis</h3>
+                <p>Analyzed and Visualized the insights using Tableau Software.</p>
+                <div class="project-technologies">
+                  <span class="tech-tag">Tableau</span>
+                  <span class="tech-tag">Data Analytics</span>
+                  <span class="tech-tag">Visualization</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 N S Dharesh Kumar. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

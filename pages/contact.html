@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | N S Dharesh Kumar</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* Contact page specific styles */
+    .contact-container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .contact-item {
+      margin-bottom: 2rem;
+      padding: 2rem;
+      border-radius: 10px;
+      background-color: rgba(15, 30, 61, 0.8);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(67, 97, 238, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+    .contact-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    }
+    
+    .contact-item h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: var(--cyan-accent);
+      position: relative;
+      display: inline-block;
+      padding-bottom: 0.5rem;
+    }
+    
+    .contact-item h3::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 40px;
+      height: 3px;
+      background: linear-gradient(to right, var(--blue-accent), var(--cyan-accent));
+    }
+    
+    .contact-item p {
+      font-size: 1.2rem;
+      color: var(--text-light);
+    }
+    
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+    
+    .social-button {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(67, 97, 238, 0.2);
+      color: var(--cyan-accent);
+      font-size: 1.2rem;
+      transition: all 0.3s;
+      border: 1px solid rgba(67, 97, 238, 0.3);
+    }
+    
+    .social-button:hover {
+      transform: translateY(-5px);
+      background-color: rgba(67, 97, 238, 0.4);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper contact-bg">
+    <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">N S Dharesh Kumar</div>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Contact Me</h2>
+          </div>
+          
+          <div class="contact-container">
+            <div class="contact-item">
+              <h3>Email</h3>
+              <p>dhareshkumar029@gmail.com</p>
+            </div>
+            
+            <div class="contact-item">
+              <h3>Phone</h3>
+              <p>+91 8110853300</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 N S Dharesh Kumar. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
