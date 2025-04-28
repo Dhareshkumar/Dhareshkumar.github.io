@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1b2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#15284e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4361ee;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#4cc9f0;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+  
+  <!-- Abstract Project Elements -->
+  <g opacity="0.2">
+    <!-- Project GridLines -->
+    <path d="M50,100 L1150,100" stroke="#4cc9f0" stroke-width="1" stroke-dasharray="3,3" />
+    <path d="M50,200 L1150,200" stroke="#4cc9f0" stroke-width="1" stroke-dasharray="3,3" />
+    <path d="M50,300 L1150,300" stroke="#4cc9f0" stroke-width="1" stroke-dasharray="3,3" />
+    <path d="M50,400 L1150,400" stroke="#4cc9f0" stroke-width="1" stroke-dasharray="3,3" />
+    <path d="M50,500 L1150,500" stroke="#4cc9f0" stroke-width="1" stroke-dasharray="3,3" />
+    <path d="M50,600 L1150,600" stroke="#4cc9f0" stroke-width="1" stroke-dasharray="3,3" />
+    <path d="M50,700 L1150,700" stroke="#4cc9f0" stroke-width="1" stroke-dasharray="3,3" />
+    
+    <path d="M100,50 L100,750" stroke="#4cc9f0" stroke-width="1" stroke-dasharray="3,3" />
+    <path d="M300,50 L300,750" stroke="#4cc9f0" stroke-width="1" stroke-dasharray="3,3" />
+    <path d="M500,50 L500,750" stroke="#4cc9f0" stroke-width="1" stroke-dasharray="3,3" />
+    <path d="M700,50 L700,750" stroke="#4cc9f0" stroke-width="1" stroke-dasharray="3,3" />
+    <path d="M900,50 L900,750" stroke="#4cc9f0" stroke-width="1" stroke-dasharray="3,3" />
+    <path d="M1100,50 L1100,750" stroke="#4cc9f0" stroke-width="1" stroke-dasharray="3,3" />
+  </g>
+  
+  <!-- Project Showcases -->
+  <g opacity="0.8">
+    <!-- Project 1: Food Ordering Chatbot -->
+    <g transform="translate(200, 200)">
+      <rect x="0" y="0" width="300" height="180" rx="15" fill="#0f1e3d" stroke="#4361ee" stroke-width="1" opacity="0.8" />
+      
+      <!-- Visual elements -->
+      <g opacity="0.9">
+        <!-- Chat bubble outlines -->
+        <path d="M50,30 L200,30 L200,70 L170,70 L160,90 L150,70 L50,70 Z" fill="none" stroke="#4cc9f0" stroke-width="1" />
+        <path d="M100,100 L250,100 L250,140 L130,140 L120,160 L110,140 L100,140 Z" fill="none" stroke="#4cc9f0" stroke-width="1" />
+        
+        <!-- Bot icon -->
+        <circle cx="240" cy="40" r="20" fill="none" stroke="#4cc9f0" stroke-width="1" />
+        <circle cx="233" cy="35" r="3" fill="#4cc9f0" />
+        <circle cx="247" cy="35" r="3" fill="#4cc9f0" />
+        <path d="M233,50 C233,45 247,45 247,50" fill="none" stroke="#4cc9f0" stroke-width="1" />
+      </g>
+      
+      <text x="150" y="160" font-family="Arial" font-size="12" fill="#e6f1ff" text-anchor="middle">Food Ordering Chatbot</text>
+    </g>
+    
+    <!-- Project 2: Store Analysis -->
+    <g transform="translate(700, 200)">
+      <rect x="0" y="0" width="300" height="180" rx="15" fill="#0f1e3d" stroke="#4361ee" stroke-width="1" opacity="0.8" />
+      
+      <!-- Visual elements -->
+      <g opacity="0.9">
+        <!-- Charts -->
+        <rect x="50" y="30" width="100" height="80" fill="none" stroke="#4cc9f0" stroke-width="1" />
+        <path d="M50,110 L60,90 L70,100 L80,70 L90,80 L100,50 L110,60 L120,40 L130,55 L140,35 L150,110" fill="none" stroke="#4cc9f0" stroke-width="1" />
+        
+        <!-- Pie chart -->
+        <circle cx="220" cy="70" r="40" fill="none" stroke="#4cc9f0" stroke-width="1" />
+        <path d="M220,70 L220,30 A40,40 0 0,1 253,92 Z" fill="none" stroke="#4cc9f0" stroke-width="1" />
+        <path d="M220,70 L253,92 A40,40 0 0,1 186,92 Z" fill="none" stroke="#4cc9f0" stroke-width="1" />
+        <path d="M220,70 L186,92 A40,40 0 0,1 220,30 Z" fill="none" stroke="#4cc9f0" stroke-width="1" />
+      </g>
+      
+      <text x="150" y="160" font-family="Arial" font-size="12" fill="#e6f1ff" text-anchor="middle">Store Analysis</text>
+    </g>
+  </g>
+  
+  <!-- Tech Tags Floating -->
+  <g opacity="0.7">
+    <g transform="translate(200, 400)">
+      <rect x="0" y="0" width="60" height="30" rx="15" fill="#0f1e3d" stroke="#4cc9f0" stroke-width="1" opacity="0.8" />
+      <text x="30" y="20" font-family="Arial" font-size="10" fill="#e6f1ff" text-anchor="middle">GCP</text>
+    </g>
+    
+    <g transform="translate(300, 450)">
+      <rect x="0" y="0" width="90" height="30" rx="15" fill="#0f1e3d" stroke="#4cc9f0" stroke-width="1" opacity="0.8" />
+      <text x="45" y="20" font-family="Arial" font-size="10" fill="#e6f1ff" text-anchor="middle">Dialogflow</text>
+    </g>
+    
+    <g transform="translate(420, 400)">
+      <rect x="0" y="0" width="40" height="30" rx="15" fill="#0f1e3d" stroke="#4cc9f0" stroke-width="1" opacity="0.8" />
+      <text x="20" y="20" font-family="Arial" font-size="10" fill="#e6f1ff" text-anchor="middle">AI</text>
+    </g>
+    
+    <g transform="translate(700, 450)">
+      <rect x="0" y="0" width="80" height="30" rx="15" fill="#0f1e3d" stroke="#4cc9f0" stroke-width="1" opacity="0.8" />
+      <text x="40" y="20" font-family="Arial" font-size="10" fill="#e6f1ff" text-anchor="middle">Tableau</text>
+    </g>
+    
+    <g transform="translate(800, 400)">
+      <rect x="0" y="0" width="120" height="30" rx="15" fill="#0f1e3d" stroke="#4cc9f0" stroke-width="1" opacity="0.8" />
+      <text x="60" y="20" font-family="Arial" font-size="10" fill="#e6f1ff" text-anchor="middle">Data Analytics</text>
+    </g>
+    
+    <g transform="translate(940, 450)">
+      <rect x="0" y="0" width="100" height="30" rx="15" fill="#0f1e3d" stroke="#4cc9f0" stroke-width="1" opacity="0.8" />
+      <text x="50" y="20" font-family="Arial" font-size="10" fill="#e6f1ff" text-anchor="middle">Visualization</text>
+    </g>
+  </g>
+  
+  <!-- Decorative Accent Elements -->
+  <g opacity="0.15">
+    <!-- Diagonal Accent Line -->
+    <path d="M0,0 L1200,800" stroke="url(#accentGrad)" stroke-width="10" />
+    <path d="M1200,0 L0,800" stroke="url(#accentGrad)" stroke-width="3" />
+    
+    <!-- Stars/Glitter Effects -->
+    <circle cx="200" cy="100" r="2" fill="#4cc9f0" />
+    <circle cx="400" cy="150" r="1" fill="#4cc9f0" />
+    <circle cx="600" cy="100" r="2" fill="#4cc9f0" />
+    <circle cx="800" cy="150" r="1" fill="#4cc9f0" />
+    <circle cx="1000" cy="100" r="2" fill="#4cc9f0" />
+    <circle cx="150" cy="300" r="1" fill="#4cc9f0" />
+    <circle cx="250" cy="350" r="2" fill="#4cc9f0" />
+    <circle cx="350" cy="300" r="1" fill="#4cc9f0" />
+    <circle cx="450" cy="350" r="2" fill="#4cc9f0" />
+    <circle cx="650" cy="350" r="1" fill="#4cc9f0" />
+    <circle cx="850" cy="350" r="2" fill="#4cc9f0" />
+    <circle cx="950" cy="300" r="1" fill="#4cc9f0" />
+    <circle cx="1050" cy="350" r="2" fill="#4cc9f0" />
+    <circle cx="200" cy="550" r="1" fill="#4cc9f0" />
+    <circle cx="300" cy="500" r="2" fill="#4cc9f0" />
+    <circle cx="500" cy="500" r="1" fill="#4cc9f0" />
+    <circle cx="700" cy="550" r="2" fill="#4cc9f0" />
+    <circle cx="900" cy="500" r="1" fill="#4cc9f0" />
+    <circle cx="1100" cy="550" r="2" fill="#4cc9f0" />
+    <circle cx="200" cy="700" r="1" fill="#4cc9f0" />
+    <circle cx="400" cy="750" r="2" fill="#4cc9f0" />
+    <circle cx="600" cy="700" r="1" fill="#4cc9f0" />
+    <circle cx="800" cy="750" r="2" fill="#4cc9f0" />
+    <circle cx="1000" cy="700" r="1" fill="#4cc9f0" />
+  </g>
+</svg>

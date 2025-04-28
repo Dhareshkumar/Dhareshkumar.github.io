@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1b2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f2344;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="75%" cy="25%" r="50%" fx="75%" fy="25%">
+      <stop offset="0%" style="stop-color:#4cc9f0;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#4cc9f0;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+  
+  <!-- Timeline Path -->
+  <g opacity="0.2">
+    <path d="M200,50 L200,750" stroke="#4361ee" stroke-width="3" stroke-dasharray="5,5" />
+    <path d="M600,50 L600,750" stroke="#4361ee" stroke-width="3" stroke-dasharray="5,5" />
+    <path d="M1000,50 L1000,750" stroke="#4361ee" stroke-width="3" stroke-dasharray="5,5" />
+    
+    <!-- Timeline Years -->
+    <text x="180" y="80" font-family="Arial" font-size="14" fill="#7ea8ff" text-anchor="middle">2024</text>
+    <text x="580" y="80" font-family="Arial" font-size="14" fill="#7ea8ff" text-anchor="middle">2020</text>
+    <text x="980" y="80" font-family="Arial" font-size="14" fill="#7ea8ff" text-anchor="middle">2016</text>
+    
+    <!-- Timeline Nodes -->
+    <circle cx="200" cy="150" r="8" fill="#4cc9f0" />
+    <circle cx="600" cy="300" r="8" fill="#4cc9f0" />
+    <circle cx="600" cy="450" r="8" fill="#4cc9f0" />
+    <circle cx="1000" cy="600" r="8" fill="#4cc9f0" />
+  </g>
+  
+  <!-- Connection Lines -->
+  <g opacity="0.15">
+    <path d="M0,200 L1200,200" stroke="#7ea8ff" stroke-width="1" />
+    <path d="M0,400 L1200,400" stroke="#7ea8ff" stroke-width="1" />
+    <path d="M0,600 L1200,600" stroke="#7ea8ff" stroke-width="1" />
+    
+    <!-- Connection Nodes -->
+    <circle cx="100" cy="200" r="3" fill="#4cc9f0" />
+    <circle cx="300" cy="200" r="3" fill="#4cc9f0" />
+    <circle cx="500" cy="200" r="3" fill="#4cc9f0" />
+    <circle cx="700" cy="200" r="3" fill="#4cc9f0" />
+    <circle cx="900" cy="200" r="3" fill="#4cc9f0" />
+    <circle cx="1100" cy="200" r="3" fill="#4cc9f0" />
+    
+    <circle cx="100" cy="400" r="3" fill="#4cc9f0" />
+    <circle cx="300" cy="400" r="3" fill="#4cc9f0" />
+    <circle cx="500" cy="400" r="3" fill="#4cc9f0" />
+    <circle cx="700" cy="400" r="3" fill="#4cc9f0" />
+    <circle cx="900" cy="400" r="3" fill="#4cc9f0" />
+    <circle cx="1100" cy="400" r="3" fill="#4cc9f0" />
+    
+    <circle cx="100" cy="600" r="3" fill="#4cc9f0" />
+    <circle cx="300" cy="600" r="3" fill="#4cc9f0" />
+    <circle cx="500" cy="600" r="3" fill="#4cc9f0" />
+    <circle cx="700" cy="600" r="3" fill="#4cc9f0" />
+    <circle cx="900" cy="600" r="3" fill="#4cc9f0" />
+    <circle cx="1100" cy="600" r="3" fill="#4cc9f0" />
+  </g>
+  
+  <!-- Tech-related design elements -->
+  <g opacity="0.1">
+    <!-- Servers -->
+    <rect x="350" y="120" width="60" height="100" rx="5" fill="none" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="360" y1="140" x2="400" y2="140" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="360" y1="160" x2="400" y2="160" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="360" y1="180" x2="400" y2="180" stroke="#4cc9f0" stroke-width="2" />
+    
+    <rect x="800" y="320" width="60" height="100" rx="5" fill="none" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="810" y1="340" x2="850" y2="340" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="810" y1="360" x2="850" y2="360" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="810" y1="380" x2="850" y2="380" stroke="#4cc9f0" stroke-width="2" />
+    
+    <!-- Database -->
+    <ellipse cx="450" cy="450" rx="30" ry="10" fill="none" stroke="#4cc9f0" stroke-width="2" />
+    <path d="M420,450 L420,490 Q420,500 450,500 Q480,500 480,490 L480,450" fill="none" stroke="#4cc9f0" stroke-width="2" />
+    <ellipse cx="450" cy="490" rx="30" ry="10" fill="none" stroke="#4cc9f0" stroke-width="2" />
+    
+    <ellipse cx="900" cy="580" rx="30" ry="10" fill="none" stroke="#4cc9f0" stroke-width="2" />
+    <path d="M870,580 L870,620 Q870,630 900,630 Q930,630 930,620 L930,580" fill="none" stroke="#4cc9f0" stroke-width="2" />
+    <ellipse cx="900" cy="620" rx="30" ry="10" fill="none" stroke="#4cc9f0" stroke-width="2" />
+    
+    <!-- Cloud -->
+    <path d="M700,150 Q720,130 740,150 Q760,130 770,150 Q790,140 780,160 Q800,170 780,180 Q790,200 770,190 Q760,210 740,190 Q720,210 700,190 Q680,200 690,180 Q670,170 690,160 Q680,140 700,150" fill="none" stroke="#4cc9f0" stroke-width="2" />
+    
+    <!-- Certifications -->
+    <rect x="650" y="650" width="100" height="60" rx="10" fill="none" stroke="#4cc9f0" stroke-width="2" />
+    <path d="M660,670 L740,670" stroke="#4cc9f0" stroke-width="2" />
+    <path d="M660,690" stroke="#4cc9f0" stroke-width="2" />
+    <path d="M700,650 L700,630 L730,640 L700,650" fill="none" stroke="#4cc9f0" stroke-width="2" />
+  </g>
+  
+  <!-- Glow Effect -->
+  <circle cx="900" cy="200" r="300" fill="url(#glowGrad)" />
+  
+  <!-- Floating Experience Bubbles -->
+  <g opacity="0.7">
+    <!-- Work Experience -->
+    <circle cx="280" cy="150" r="40" fill="#0f1e3d" stroke="#4361ee" stroke-width="1" opacity="0.8" />
+    <text x="280" y="145" font-family="Arial" font-size="10" fill="#e6f1ff" text-anchor="middle">Junior</text>
+    <text x="280" y="160" font-family="Arial" font-size="10" fill="#e6f1ff" text-anchor="middle">Consultant</text>
+    
+    <!-- Education -->
+    <circle cx="680" cy="300" r="40" fill="#0f1e3d" stroke="#4361ee" stroke-width="1" opacity="0.8" />
+    <text x="680" y="295" font-family="Arial" font-size="10" fill="#e6f1ff" text-anchor="middle">B.Tech</text>
+    <text x="680" y="310" font-family="Arial" font-size="10" fill="#e6f1ff" text-anchor="middle">AI & DS</text>
+    
+    <circle cx="680" cy="450" r="35" fill="#0f1e3d" stroke="#4361ee" stroke-width="1" opacity="0.8" />
+    <text x="680" y="455" font-family="Arial" font-size="10" fill="#e6f1ff" text-anchor="middle">Higher Sec.</text>
+    
+    <circle cx="920" cy="600" r="35" fill="#0f1e3d" stroke="#4361ee" stroke-width="1" opacity="0.8" />
+    <text x="920" y="605" font-family="Arial" font-size="10" fill="#e6f1ff" text-anchor="middle">SSLC</text>
+  </g>
+</svg>
